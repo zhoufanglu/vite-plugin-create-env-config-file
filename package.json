@@ -1,13 +1,13 @@
 {
   "name": "vite-plugin-create-env-config-file",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "",
   "main": "index.js",
   "scripts": {
     "dev": "npm run build --watch --ignore-watch examples",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsup src/index.ts --dts --format cjs,esm",
-    "release": "npx bumpp --push --tag --commit && pnpm publish"
+    "release": "npx bumpp --push --tag --commit && pnpm publish --no-git-checks"
   },
   "keywords": [],
   "author": "",
