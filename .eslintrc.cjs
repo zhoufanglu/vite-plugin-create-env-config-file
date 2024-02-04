@@ -9,8 +9,6 @@ module.exports = {
   "extends": [
     "eslint:recommended",
     "plugin:@typescript-eslint/recommended",
-    "prettier",
-    "plugin:prettier/recommended"
   ],
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
@@ -19,6 +17,7 @@ module.exports = {
   },
   "plugins": ["@typescript-eslint"],
   "rules": {
-    "no-console": 1
+    '@typescript-eslint/no-unused-vars': 'off',
+    'no-unused-vars': 'off',
   }
 }
