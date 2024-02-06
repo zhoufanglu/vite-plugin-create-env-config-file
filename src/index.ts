@@ -9,6 +9,8 @@ interface Options{
 }
 
 export default function vitePluginCreateEnvConfigFile(fnOptions: Options): PluginOption {
+  console.log('plugin-----------start------------')
+
   // 设置默认值
   const options: Options = {
     configPath: './public/config.js',

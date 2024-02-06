@@ -7,7 +7,7 @@
     "dev": "npm run build --watch --ignore-watch examples",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsup src/index.ts --dts --format cjs,esm",
-    "release": "npx bumpp --push --tag --commit && pnpm publish --no-git-checks"
+    "release": "npx bumpp --push --tag --commit && npm publish --no-git-checks"
   },
   "keywords": [],
   "author": "",
